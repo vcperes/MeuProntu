@@ -1,10 +1,14 @@
 package br.com.vitorperes.models;
 
-public class Pessoa {
+public class Paciente {
 
     private int id;
     private String nome;
     private String sobrenome;
+
+    public Paciente(int id, String nome, String sobrenome){
+        this.id = id; this.nome = nome; this.sobrenome = sobrenome;
+    }
 
     public int getId() {
         return id;
